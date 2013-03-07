@@ -1,6 +1,6 @@
 {
   "name": "reddit companion",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "manifest_version": 2,
   "description": "Turn your browser into a redditor's best friend.",
   "options_page": "options.html",
@@ -36,11 +36,11 @@
     {
       "matches": ["http://*/*"],
       "run_at": "document_start",
-      "js": ["debug.js", "pageOverlay.js"],
-      "css": ["pageOverlay.css"]
+      "js": ["debug.js", "pageOverlay.js"]
     }
   ],
   "web_accessible_resources": [
+    "pageOverlay.css",
     "bar.html",
     "submit.html",
     "images/reddit-mail.svg",
