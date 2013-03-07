@@ -22,7 +22,6 @@ ShineOverlay.prototype = {
     this.stylesheet.setAttribute('type', 'text/css')
     this.stylesheet.setAttribute('rel', 'stylesheet')
     this.overlay = document.createElement('shinebar')
-    this.overlay.appendChild(this.stylesheet)
     this.overlay.appendChild(this.frame)
     document.documentElement.appendChild(this.overlay)
   },
